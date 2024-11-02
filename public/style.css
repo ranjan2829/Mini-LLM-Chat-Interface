@@ -1,17 +1,17 @@
 body {
     font-family: 'Cursive', cursive; /* Set cursive font for all text */
-    background-color: #121212; /* Dark background */
+    background-color: black; /* Dark background */
     color: #e0e0e0; /* Light text color */
     margin: 0; /* Set margin to 0 to avoid overflow */
     padding: 20px; /* Consistent padding */
 }
 
 .container {
-    max-width: 1400px; /* Increased width for a larger layout */
+    max-width: 1200px; /* Increased width for a larger layout */
     margin: auto;
     background: #1e1e1e; /* Dark background for the container */
-    padding: 30px;
-    border-radius: 19px; /* Softer corners */
+    padding: 10px;
+    border-radius: 15px; /* Softer corners */
     border: 2px solid #ff3d00; /* Bright border */
     box-shadow: 0 4px 30px rgba(216, 51, 0, 0.4); /* Enhanced shadow */
 }
@@ -38,7 +38,7 @@ textarea {
     font-family: 'Cursive', cursive;
     width: 98%; /* Full width */
     height: 150px; /* Increased height for better input space */
-    margin-bottom: 15px;
+    margin-bottom: 10px;
     padding: 12px; /* Inner padding */
     border: 2px solid #3f51b5; /* Blue border for input */
     border-radius: 8px; /* Softer corners */
@@ -56,7 +56,7 @@ button {
     font-family: 'Cursive', cursive;
     display: block;
     width: 99.5%; /* Full width */
-    padding: 10px; /* Padding for button */
+    padding: 5px; /* Padding for button */
     background-color: teal; /* Button background */
     color: rgb(0, 0, 0); /* Text color */
     border: none; /* No border */
@@ -74,25 +74,25 @@ button:hover {
 
 .output-container {
 
-    height: 400px;
+    height: 350px;
     max-width: 1450px; /* Consistent width with the input container */
     margin: 30px auto; /* Centered with space for separation */
     background: #1e1e1e; /* Dark background for output area */
-    padding: 20px;
-    border-radius: 15px; /* Softer corners */
+    padding: 10px;
+    border-radius: 10px; /* Softer corners */
     box-shadow: 0 4px 30px rgba(18, 221, 244, 0.3); /* Soft shadow for depth */
 }
 
 h3 {
     margin-top: 0; /* Align heading with the output textarea */
-    font-size: 20px; /* Larger font size for output heading */
+    font-size: 15px; /* Larger font size for output heading */
     text-align: center; /* Center the output heading */
 }
 
 .output{
     font-family: 'Cursive', cursive;
-    margin-top: 15px;
-    padding: 12px;
+    margin-top: 0px;
+    padding: 10px;
     border: 2px solid #ff3d00; /* Consistent border color */
     border-radius: 8px; /* Softer corners */
     background: #2e2e2e; /* Dark background for output */
@@ -109,7 +109,7 @@ h3 {
 #output-ai {
     font-family: 'Cursive', cursive;
     width: 98%; /* Ensure it takes full width */
-    height: 250px; /* Increased height for more space */
+    height: 230px; /* Increased height for more space */
     padding: 12px; /* Inner padding for comfort */
     border: 2px solid #3f51b5; /* Solid border with color */
     border-radius: 8px; /* Softer corners */
@@ -123,3 +123,33 @@ h3 {
 }
 
 
+.footer {
+    text-align: center; /* Center text */
+    margin-top: 20px; /* Space above footer */
+    padding: 20px; /* Padding inside footer */
+    background-color: #222; /* Dark background for footer */
+    color: #e0e0e0; /* Light text color */
+    border-top: 1px solid #444; /* Top border for separation */
+}
+
+.footer p {
+    margin: 5px 0; /* Space between paragraphs */
+}
+
+.footer .social-icon {
+    width: 24px;  /* Increased width of icons */
+    height: 24px; /* Increased height of icons */
+    vertical-align: middle; /* Aligns the icons with text */
+    margin: 0 8px; /* Space around icons */
+    display: inline-block; /* Ensures the icon is treated as a block */
+}
+
+.footer a {
+    color: #ffab40; /* Link color */
+    text-decoration: none; /* Remove underline */
+    font-size: 16px; /* Uniform font size */
+}
+
+.footer a:hover {
+    color: #fff; /* Change color on hover */
+}
