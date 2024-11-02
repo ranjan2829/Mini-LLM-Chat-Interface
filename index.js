@@ -18,7 +18,7 @@ app.use(express.json());
 app.use(express.static(path.join(__dirname, 'public')));
 
 // Initialize Groq client
-const groq = new Groq({ apiKey: process.env.GROQ_API_KEY });
+const groq = new Groq({ apiKey:sk_164PmagFoNAs53sbX9RiWGdyb3FYs8lZsjkEQYV6YaReBBEZhYbp });
 
 // Separate the Groq chat completion logic
 async function getGroqChatCompletion(userInput) {
